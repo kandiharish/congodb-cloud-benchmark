@@ -1,0 +1,21 @@
+{
+  "cognodb": {
+    "status": "UNAVAILABLE",
+    "reason": "database environment unavailable or connection failed"
+  },
+  "neo4j": {
+    "status": "CONNECTED"
+  },
+  "memgraph": {
+    "status": "UNAVAILABLE",
+    "reason": "database environment unavailable or connection failed"
+  },
+  "falkordb": {
+    "status": "UNAVAILABLE",
+    "reason": "database environment unavailable or connection failed"
+  },
+  "apache_age": {
+    "status": "UNAVAILABLE",
+    "reason": "database environment unavailable or connection failed"
+  }
+}

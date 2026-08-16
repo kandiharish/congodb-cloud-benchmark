@@ -41,19 +41,19 @@ All tests isolate the benchmarking client from the database host to prevent reso
 
 | Metric | CognoDB | Neo4j | Memgraph | FalkorDB | Apache AGE |
 |---|---|---|---|---|---|
-| **Node ingest throughput** | - | - | - | - | - |
-| **Relationship ingest throughput** | - | - | - | - | - |
-| **Total load time** | - | - | - | - | - |
-| **1-hop p50/p95** | - | - | - | - | - |
-| **2-hop p50/p95** | - | - | - | - | - |
-| **3-hop p50/p95** | - | - | - | - | - |
-| **Point lookup p50/p95** | - | - | - | - | - |
-| **Indexed lookup p50/p95** | - | - | - | - | - |
-| **Aggregation p50/p95** | - | - | - | - | - |
-| **Mixed workload QPS** | - | - | - | - | - |
-| **CPU** | - | - | - | - | - |
-| **Memory** | - | - | - | - | - |
-| **Storage** | - | - | - | - | - |
+| **Node ingest throughput** | 4,881 ops/sec | Unavailable | - | - | - |
+| **Relationship ingest throughput** | 9,659 ops/sec | Unavailable | - | - | - |
+| **Total load time** | 23.12s | Unavailable | - | - | - |
+| **1-hop p50/p95** | 0.240s / 0.243s | Unavailable | - | - | - |
+| **2-hop p50/p95** | 0.240s / 0.244s | Unavailable | - | - | - |
+| **3-hop p50/p95** | 0.240s / 0.243s | Unavailable | - | - | - |
+| **Point lookup p50/p95** | 0.244s / 0.257s | Unavailable | - | - | - |
+| **Indexed lookup p50/p95** | 0.270s / 0.270s | Unavailable | - | - | - |
+| **Aggregation p50/p95** | 0.284s / 0.284s | Unavailable | - | - | - |
+| **Mixed workload QPS** | 27.94 QPS | Unavailable | - | - | - |
+| **CPU** | Not observable | Not observable | - | - | - |
+| **Memory** | Not observable | Not observable | - | - | - |
+| **Storage** | Not observable | Not observable | - | - | - |
 
 *(Note: Measurements populate into this table automatically as tests execute against connected environments.)*
 

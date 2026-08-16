@@ -8,7 +8,6 @@ data/raw/
 data/processed/
 
 # Results
-results/
 charts/
 
 # Secrets

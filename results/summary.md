@@ -1,0 +1,22 @@
+# Benchmark Summary
+
+Generated at: 2026-08-16T12:05:41.682573
+
+| Metric | CognoDB | Neo4j |
+|---|---|---|
+| **Node ingest throughput (ops/sec)** | 4881.0572 | - | 
+| **Relationship ingest throughput (ops/sec)** | 9659.9590 | - | 
+| **Total load time (s)** | 23.1211 | - | 
+| **1-hop p50 (s)** | 0.2397 | - | 
+| **1-hop p95 (s)** | 0.2430 | - | 
+| **2-hop p50 (s)** | 0.2396 | - | 
+| **2-hop p95 (s)** | 0.2445 | - | 
+| **3-hop p50 (s)** | 0.2400 | - | 
+| **3-hop p95 (s)** | 0.2435 | - | 
+| **Point lookup p50 (s)** | 0.2443 | - | 
+| **Point lookup p95 (s)** | 0.2568 | - | 
+| **Indexed lookup p50 (s)** | 0.2703 | - | 
+| **Indexed lookup p95 (s)** | 0.2703 | - | 
+| **Aggregation p50 (s)** | 0.2838 | - | 
+| **Aggregation p95 (s)** | 0.2838 | - | 
+| **Mixed workload QPS** | 27.9489 | - | 
