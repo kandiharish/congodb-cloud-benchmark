@@ -41,19 +41,19 @@ All tests isolate the benchmarking client from the database host to prevent reso
 
 | Metric | CognoDB | Neo4j | Memgraph | FalkorDB | Apache AGE |
 |---|---|---|---|---|---|
-| **Node ingest throughput** | 4,881 ops/sec | Unavailable | - | - | - |
-| **Relationship ingest throughput** | 9,659 ops/sec | Unavailable | - | - | - |
-| **Total load time** | 23.12s | Unavailable | - | - | - |
-| **1-hop p50/p95** | 0.240s / 0.243s | Unavailable | - | - | - |
-| **2-hop p50/p95** | 0.240s / 0.244s | Unavailable | - | - | - |
-| **3-hop p50/p95** | 0.240s / 0.243s | Unavailable | - | - | - |
-| **Point lookup p50/p95** | 0.244s / 0.257s | Unavailable | - | - | - |
-| **Indexed lookup p50/p95** | 0.270s / 0.270s | Unavailable | - | - | - |
-| **Aggregation p50/p95** | 0.284s / 0.284s | Unavailable | - | - | - |
-| **Mixed workload QPS** | 27.94 QPS | Unavailable | - | - | - |
-| **CPU** | Not observable | Not observable | - | - | - |
-| **Memory** | Not observable | Not observable | - | - | - |
-| **Storage** | Not observable | Not observable | - | - | - |
+| **Node ingest throughput** | 4,881 ops/sec | Pending | Pending | Pending | Pending |
+| **Relationship ingest throughput** | 9,659 ops/sec | Pending | Pending | Pending | Pending |
+| **Total load time** | 23.12s | Pending | Pending | Pending | Pending |
+| **1-hop p50/p95** | 0.240s / 0.243s | Pending | Pending | Pending | Pending |
+| **2-hop p50/p95** | 0.240s / 0.244s | Pending | Pending | Pending | Pending |
+| **3-hop p50/p95** | 0.240s / 0.243s | Pending | Pending | Pending | Pending |
+| **Point lookup p50/p95** | 0.244s / 0.257s | Pending | Pending | Pending | Pending |
+| **Indexed lookup p50/p95** | 0.270s / 0.270s | Pending | Pending | Pending | Pending |
+| **Aggregation p50/p95** | 0.284s / 0.284s | Pending | Pending | Pending | Pending |
+| **Mixed workload QPS** | 27.94 QPS | Pending | Pending | Pending | Pending |
+| **CPU** | Not observable | Not observable | Not observable | Not observable | Not observable |
+| **Memory** | Not observable | Not observable | Not observable | Not observable | Not observable |
+| **Storage** | Not observable | Not observable | Not observable | Not observable | Not observable |
 
 *(Note: Measurements populate into this table automatically as tests execute against connected environments.)*
 
