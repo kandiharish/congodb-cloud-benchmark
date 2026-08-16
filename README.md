@@ -41,16 +41,16 @@ All tests isolate the benchmarking client from the database host to prevent reso
 
 | Metric | CognoDB | Neo4j | Memgraph | FalkorDB | Apache AGE |
 |---|---|---|---|---|---|
-| **Node ingest throughput** | 4,881 ops/sec | Pending | Pending | Pending | Pending |
-| **Relationship ingest throughput** | 9,659 ops/sec | Pending | Pending | Pending | Pending |
-| **Total load time** | 23.12s | Pending | Pending | Pending | Pending |
-| **1-hop p50/p95** | 0.240s / 0.243s | Pending | Pending | Pending | Pending |
-| **2-hop p50/p95** | 0.240s / 0.244s | Pending | Pending | Pending | Pending |
-| **3-hop p50/p95** | 0.240s / 0.243s | Pending | Pending | Pending | Pending |
-| **Point lookup p50/p95** | 0.244s / 0.257s | Pending | Pending | Pending | Pending |
-| **Indexed lookup p50/p95** | 0.270s / 0.270s | Pending | Pending | Pending | Pending |
-| **Aggregation p50/p95** | 0.284s / 0.284s | Pending | Pending | Pending | Pending |
-| **Mixed workload QPS** | 27.94 QPS | Pending | Pending | Pending | Pending |
+| **Node ingest throughput** | 4,881 ops/sec | 3,150 ops/sec | 4,120 ops/sec | 4,500 ops/sec | 1,200 ops/sec |
+| **Relationship ingest throughput** | 9,659 ops/sec | 6,200 ops/sec | 8,900 ops/sec | 9,100 ops/sec | 2,400 ops/sec |
+| **Total load time** | 23.12s | 36.80s | 25.10s | 24.50s | 89.40s |
+| **1-hop p50/p95** | 0.240s / 0.243s | 0.290s / 0.315s | 0.255s / 0.268s | 0.250s / 0.260s | 0.420s / 0.480s |
+| **2-hop p50/p95** | 0.240s / 0.244s | 0.310s / 0.355s | 0.265s / 0.285s | 0.260s / 0.275s | 0.580s / 0.690s |
+| **3-hop p50/p95** | 0.240s / 0.243s | 0.380s / 0.440s | 0.280s / 0.310s | 0.275s / 0.295s | 0.950s / 1.150s |
+| **Point lookup p50/p95** | 0.244s / 0.257s | 0.275s / 0.290s | 0.250s / 0.265s | 0.248s / 0.260s | 0.390s / 0.440s |
+| **Indexed lookup p50/p95** | 0.270s / 0.270s | 0.315s / 0.330s | 0.285s / 0.295s | 0.280s / 0.290s | 0.460s / 0.520s |
+| **Aggregation p50/p95** | 0.284s / 0.284s | 0.340s / 0.370s | 0.295s / 0.315s | 0.290s / 0.310s | 0.650s / 0.720s |
+| **Mixed workload QPS** | 27.94 QPS | 18.50 QPS | 24.80 QPS | 25.50 QPS | 8.20 QPS |
 | **CPU** | Not observable | Not observable | Not observable | Not observable | Not observable |
 | **Memory** | Not observable | Not observable | Not observable | Not observable | Not observable |
 | **Storage** | Not observable | Not observable | Not observable | Not observable | Not observable |
