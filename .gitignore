@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data
+data/raw/
+data/processed/
+
+# Results
+results/
+charts/
+
+# Secrets
+.env
+archive/
